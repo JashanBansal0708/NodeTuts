@@ -1,3 +1,3 @@
 # NodeTuts
 
-## Various files related to various topics in arranged in different folders
+## Various files related to various topics are arranged in different folders
