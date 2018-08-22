@@ -1,0 +1,66 @@
+/////////////  Local package commands:         //////////////
+
+npm i npm    //latest
+npm i npm@5.5.1  //installing a specific version
+
+
+npm init   
+npm init --yes
+
+
+npm i underscore // by default --save now
+
+
+Ignore the node_modules in .gitignore version control system
+add node_modules/ in file
+after cloning repo run ( npm install)
+
+
+
+npm list                // List installed packages in tree format
+npm list --depth=0      // ist only installed packages
+
+
+
+npm view mongoose
+npm view mongoose --dependencies
+npm view mongoose --versions
+
+
+
+npm outdated
+npm update                   // Update the minor and patch versions of file 
+
+
+npm i -g npm-check-updates   // New Command line tool
+npm-check-updates    
+ncu -u                       //  to Update the package.json file
+npm i
+
+
+
+npm i jshint --save-dev      //devDependencies
+
+
+
+npm un mongoose               // uninstalling a local package
+
+
+////////////////     Global Package:      /////////////
+
+npm i -g npm
+npm i -g npm@5.5.1     
+npm un -g name 
+
+All commands for local packages work here.
+
+/////////////       Publishing a package       /////////////
+
+npm addUser
+npm login
+npm publish
+npm i lion-lib
+
+npm version major
+npm version minor
+npm version patch
